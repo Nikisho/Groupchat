@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #5a3f37, #2c7744);
+}
+
+.signbtns{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    position: relative;
+    left: 500px;
+}
+
+#signInButtons{
+    position: relative;
+    background-color: rgb(63, 63, 78);
+    left: 100px;
+    width: 650px;
+    top: 50px;
+    height:40px;
+}
+
+#signInBtn{
+    width: 200px;
+    height: 40px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: -apple- system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;;
+    border-radius: 3px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    transition-duration: 0.4s;
+}
+
+#signOutBtn {
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 12px 11px;
+    transition-duration: 0.4s;
+}
+
+#signOutBtn:hover {
+    background-color: #11a4c9; /* Green */
+    color: white;
+}
+
+#signInBtn:hover {
+    background-color: #11a4c9; 
+    color: white;
+}
+#signInBtn img{
+    position: relative;
+    border-radius: 0px;
+    width: 30px;
+}
+
+#chat{
+    position: relative;
+    background-color:rgb(20, 20, 24);
+    left: 100px;
+    top: 50px;
+    width: 650px;
+    height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    
+}
+
+#Btn{
+    position: relative;
+    width: 50px;
+    left: 10px;
+    height: 26px;
+    top: 50px;
+    border-width: 1px;
+    border-radius: 25px;
+    background: white;
+}
+
+#textbox {
+    position: relative;
+    background-color: rgb(63, 63, 78);
+    padding-left: 20px;
+    width: 625px;
+    height: 50px;
+    top: 50px;
+    left: 100px;
+    /* border-radius: 0px 0px 25px 25px; */
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+li.sent {
+    float: right;
+    list-style-type: none;
+    
+    clear: both;
+    color: white;
+    margin: 5px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color:rgb(135, 160, 156);
+    max-width: 200px;
+    word-break: break-all;
+}
+
+li.received {
+    float: left;
+    position: relative;
+    right: 0px;
+    list-style-type: none;
+      
+    clear: both;
+    color: white;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color:rgb(201, 189, 21);
+    max-width: 200px;
+    word-break: break-all;
+    
+}
+
+.received img {
+    border-radius: 50%;
+    width: 30px;
+    position: absolute;
+    left: -35px;
+    top: 5px;
+}
+
+.sent img {
+    display: none;
+}
